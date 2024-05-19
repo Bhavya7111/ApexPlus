@@ -1,0 +1,85 @@
+.add-vehicle-container {
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vehicle-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vehicle-input-fields {
+  width: 100%;
+}
+
+.vehicle-input-group {
+  margin-bottom: 15px;
+}
+
+.vehicle-input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cececed1; 
+}
+
+.vehicle-input-group input,
+.vehicle-input-group select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #0a0909; 
+  color: #ffffff; 
+}
+
+.vehicle-button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.vehicle-button-group .vehicle-add-button,
+.vehicle-button-group .vehicle-reset-button,
+.vehicle-button-group .vehicle-go-back-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vehicle-button-group .vehicle-add-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.vehicle-button-group .vehicle-reset-button {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.vehicle-button-group .vehicle-go-back-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.error-message {
+  color: #f00; 
+  font-size: 0.875em;
+}
+
+.success-message {
+  color: #28a745; 
+  text-align: center;
+  margin-top: 20px;
+}

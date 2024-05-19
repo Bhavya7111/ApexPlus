@@ -1,0 +1,68 @@
+.add-scenario-container {
+  background-color: #010000;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #0a0909;
+  color: #ffffff;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #f00;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group .btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group .btn.add {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-group .btn.reset {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.button-group .btn.go-back {
+  background-color: #007bff;
+  color: #fff;
+}

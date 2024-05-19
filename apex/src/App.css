@@ -1,0 +1,131 @@
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #2e3b4e;
+  color: white;
+  height: 100vh;
+  position: fixed; /* Make the sidebar fixed */
+  left: 0; /* Align to the left */
+  top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 200px; /* Ensure there's space for the fixed sidebar */
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.scenario-dropdown {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scenario-dropdown select {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content:right;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border:none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.controls button.stop-btn {
+  background-color: hsl(200, 90%, 58%);
+}
+
+.grid {
+  margin-top: 20px;
+  background-color: black;
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+.vehicle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.vehicle-1 {
+  background-color: red;
+  top: 30px; /* Adjusted to fit within the grid */
+  left: 30px;
+}
+
+.vehicle-2 {
+  background-color: blue;
+  top: 300px; /* Adjusted to fit within the grid */
+  left: 500px;
+}
+
+.edit-btn, .delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn::before {
+  content: '\270E'; /* Unicode for pencil icon */
+  color: blue;
+}
+
+.delete-btn::before {
+  content: '\1F5D1'; /* Unicode for delete/trash can icon */
+  color: red;
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "id": 3,
+      "name": "My Scenario",
+      "time": 2,
+      "vehicles": 0
+    },
+    {
+      "id": 2,
+      "name": "Test Scenario",
+      "time": 4,
+      "vehicles": 0
+    },
+    {
+      "id": 7,
+      "name": "New Scenario",
+      "time": 3,
+      "vehicles": 0
+    }
+  ]

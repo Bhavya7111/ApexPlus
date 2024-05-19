@@ -1,0 +1,76 @@
+.scenarios-page {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.top-buttons .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.top-buttons .btn.new-scenario {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.top-buttons .btn.add-vehicle {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.top-buttons .btn.delete-all {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.scenarios-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scenarios-table th, .scenarios-table td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
+}
+
+.scenarios-table th {
+  background-color: #444;
+}
+
+.scenarios-table td {
+  background-color: #fff;
+  color: #000;
+}
+
+.scenarios-table .btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scenarios-table .btn.icon-btn {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.scenarios-table .btn.icon-btn:hover {
+  color: #555;
+}
